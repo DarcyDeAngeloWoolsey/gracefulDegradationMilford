@@ -1,0 +1,103 @@
+
+h1 {
+	color: white;
+}
+
+p {
+	font-size: 24px;
+}
+
+#rgt_c {
+	height: 100vh;
+	background-color: #dddddd;
+}
+
+#lft_c {
+	height: 100vh;
+	background-color: #362C9E;
+}
+
+#top{
+	margin-bottom: 5%;
+}
+
+#top_sm{
+	margin-bottom: 5%;
+	width: 40%;
+}
+
+#image1 {
+	width: 100%;
+}
+
+#image2 {
+	width: 100%;
+}
+
+#sweepstakes {
+	margin-top: 5%;
+	margin-left: 0%;
+}
+
+#form_sm {
+	margin: 0%;
+}
+
+.container {
+	height: 100vh;
+	margin-bottom: 0;
+}
+
+p.tag {
+	color:white;
+	font-family: Georgia, Serif;
+}
+
+.border {
+	border-bottom: .1em solid white;
+}
+
+.btn_sweep {
+	display: inline-block;
+}
+
+.bt_color {
+	background-color: #362C9E;
+	color: white;
+}
+
+.bt_color:hover {
+	background-color: #2C9E6F;
+	color: white;
+}
+
+
+.new_input {
+	width: 100%;
+}
+
+.modal-body {
+	width: 40%;
+	margin: auto;
+}
+
+label.error {
+    display: none !important;
+}
+
+input.error, select.error
+{
+    border: 1px solid red;
+}
+
+/*Media Queries*/
+
+
+
+@media screen and (max-width: 768px){
+#lft_c {
+	height: auto;
+	background-color: #362C9E;
+}
+
+}
